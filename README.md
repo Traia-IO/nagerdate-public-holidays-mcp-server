@@ -117,7 +117,7 @@ The `deployment_params.json` file contains the deployment configuration for this
   "github_url": "https://github.com/Traia-IO/nagerdate-public-holidays-mcp-server",
   "mcp_server": {
     "name": "nagerdate-public-holidays-mcp",
-    "description": "Public holiday and long weekend data for 100+ countries worldwide. query upcoming holidays, check if today is a public holiday, and get country information.",
+    "description": "Public holiday api providing holiday data for over 100 countries worldwide",
     "server_type": "streamable-http",
 "capabilities": [
       // List all implemented tool names here

@@ -93,10 +93,10 @@ logger.info(f"✅ FastMCP server created")
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -155,10 +155,10 @@ async def retrieves_detailed_information_about_a_specific_country(
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -216,10 +216,10 @@ async def retrieve_the_complete_list_of_all_countries_supported_by_the_nagerdate
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -288,10 +288,10 @@ async def retrieve_all_long_weekends_for_a_given_country_and_year(
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -352,10 +352,10 @@ async def retrieve_the_list_of_all_public_holidays_for_the_specified_year_and_co
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -422,10 +422,10 @@ async def determines_whether_today_is_a_public_holiday_in_the_specified_country_
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -484,10 +484,10 @@ async def retrieve_all_upcoming_public_holidays_occurring_within_the_next_365_da
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
@@ -545,10 +545,10 @@ async def retrieve_all_public_holidays_occurring_worldwide_within_the_next_7_day
 @mcp.tool()
 @require_payment_for_tool(
     price=TokenAmount(
-        amount="1000000000000000",  # 0.001 tokens
+        amount="46000",  # 0.046 tokens
         asset=TokenAsset(
-            address="0x3e17730bb2ca51a8D5deD7E44c003A2e95a4d822",
-            decimals=18,
+            address="0x1c7D4B196Cb0C7B01d743Fbc6116a902379C7238",
+            decimals=6,
             network="sepolia",
             eip712=EIP712Domain(
                 name="IATPWallet",
